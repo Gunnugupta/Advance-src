@@ -1,9 +1,9 @@
 from os import environ 
 
 class Config:
-    API_ID = environ.get("API_ID", "21551881")
-    API_HASH = environ.get("API_HASH", "6e83e9e1aee5accd4868dc29aa59ebaa")
-    BOT_TOKEN = environ.get("BOT_TOKEN", "7335340628:AAGfL-bshLeGzIDIG3frrTr8Tkmx1nOACeU") 
+    API_ID = environ.get("API_ID", "14602734")
+    API_HASH = environ.get("API_HASH", "b66b42bbe3af4110d4fffddc44d0280c")
+    BOT_TOKEN = environ.get("BOT_TOKEN", "6480444276:AAGieHOq4rpDeFMYyTNpOF6jILE1iFr07uw") 
     BOT_SESSION = environ.get("BOT_SESSION", "bot") 
     DATABASE_URI = environ.get("DATABASE", "mongodb+srv://ROKU:ROKU@cluster0.nxjre0s.mongodb.net/?retryWrites=true&w=majority")
     DATABASE_NAME = environ.get("DATABASE_NAME", "forward-bot")
