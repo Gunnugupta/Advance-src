@@ -15,12 +15,12 @@ logging.getLogger("telethon").setLevel(logging.WARNING)
 
 
 # variables
-API_ID = config("API_ID", default=21551881, cast=int)
-API_HASH = config("API_HASH", "6e83e9e1aee5accd4868dc29aa59ebaa")
-BOT_TOKEN = config("BOT_TOKEN", "7335340628:AAGfL-bshLeGzIDIG3frrTr8Tkmx1nOACeU")
-SESSION = config("SESSION", "BQFI2wkABIamBBevaz0sU3BYWPzqOmmzsLOSs3iXjNMAX95WvcnRfFE3GID1MtaYVMpRdR30KWJ_dXLKv6ZpXn2goi8guNiXRj6Ikl0bdpXDgREvMWOvWFrSs49mAtfTRCyjipDHLRnKhygw-eAnPDX4uKESLQIBKZR5nPqY-alkvJqb3ahSPS2bPZ36woQi6VrFZimCFmuaoHxTEStq6fUpEmIr7oaRCSBTZyw_RmFVv8HUwWwHPchX_9GaOx4o7TFaaIlmmxMnHXLiyEiv3f5ZPM6lDJoUdbxq3F-Bjwwbo8ZpBEMqHyEn9GPY0TXLjPlnvVgiKlPtAKGu1XY0D-uVu8_TagAAAAGpbdleAA")
+API_ID = config("API_ID", default=14602734, cast=int)
+API_HASH = config("API_HASH", "b66b42bbe3af4110d4fffddc44d0280c")
+BOT_TOKEN = config("BOT_TOKEN", "6480444276:AAGieHOq4rpDeFMYyTNpOF6jILE1iFr07uw")
+SESSION = config("SESSION", "AQDe0e4Am7ZSmd0S3qcHtdXW8pLzd_BNfZijZ-YWlIfkMDLXYPLi5ChFXdWcJpDfehvugHcY05MDc3J9U7IlvkAq-56fgG5RlvP-SizVb5nmHrDZK8c7aE3CvaIR5sOaZS1Xlf7yrk0tEyFSbdfRZP6Lj6pDlE9Tph8d-vIDKZThgveeey8Iea_2bq-HgooHiBc1L2h9ntYRMNfg5W0xm6fSc7P_Xb_5LzSY3-erfO-wqOvkGhVA7lURfbGyBIaeHnzBMmkYmgH73kFAHyEJ-LjMS7ZJCVjYyZ6hJr6GbKraDI8Sk4-Ub3wu2LCq197jD5n7pHuYofzwn05U2FfcHqUhm12ubAAAAAG1G_KUAA")
 FORCESUB = config("FORCESUB", "moviesworldupdates")
-AUTH = config("AUTH", "6359874284")
+AUTH = config("AUTH", "7137515870")
 SUDO_USERS = []
 
 if len(AUTH) != 0:
